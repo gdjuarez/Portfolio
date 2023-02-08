@@ -1,4 +1,4 @@
 <?php 
-echo date('Y');
+echo Date('Y');
 
 ?>
