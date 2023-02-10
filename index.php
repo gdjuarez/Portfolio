@@ -1,6 +1,14 @@
 <?php 
 //echo Date('Y');
 
+function function() {
+    code to be executed;
+  }
+  Note: 
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +19,10 @@
     <title>Portfolio</title>
 </head>
 <body>
+
+
+
+
     
 </body>
 </html>
