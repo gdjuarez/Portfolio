@@ -17,6 +17,7 @@
   <title>Portfolio</title>
    <!--  CSS personalizado -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -37,11 +38,11 @@
   <!-- INICIO -->
   <section id="inicio" class="d-flex flex-column justify-content-center">
     <div class="container">
-      <h1 class='text-white p-4'>Gustavo Juarez</h1>
-      <p class='text-white p-3' ><span>Desarrollo de Sistemas Web a medida.</span></p>
+      <h1 class=' p-4'>Gustavo Juarez</h1>
+      <p class=' p-3' ><span>Desarrollo de Sistemas Web a medida.</span></p>
       <div class="social-links p-4">
-       <a href="#" class="instagram">Instagram<i class="bx bxl-instagram"></i></a>       
-        <a href="#" class="linkedin">linkedin<i class="bx bxl-linkedin"></i></a>
+     <a href="#" class="instagram"><ion-icon name="logo-instagram"></ion-icon></a>       
+      <a href="#" class="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>       
       </div>
     </div>
   </section>
@@ -93,7 +94,7 @@
 
     <!-- CONTACTO -->
 
-    <section id="contacto" class="contacto">
+    <section id="contacto" class="contacto bg-light">
       <div class="container text-center">
         <div class="section-title">
           <h2 class='p-4'>Contacto</h2>
@@ -108,7 +109,7 @@
             </div>
           </div>
 
-          <div class="col-lg-8 ">
+          <div class="col-lg-6 ">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="form-row">
@@ -128,6 +129,9 @@
               </div>
               <button type="submit"class="btn btn-primary text-center mt-2">Enviar mensaje</button>
             </form>
+
+          </div>
+          <div class="col-2">
 
           </div>
 
@@ -153,7 +157,7 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
   </script>
 
-
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
 
