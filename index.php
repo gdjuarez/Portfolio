@@ -1,48 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--fontawesome icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- jquery  -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
   <title>Portfolio</title>
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Template Main CSS File -->
+   <!--  CSS personalizado -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#inicio" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
         <li><a href="#sobremi" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre mi</span></a></li>
-        <li><a href="#trabajos" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Trabajos</span></a></li>
+        <li><a href="#trabajos" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Trabajos</span></a>
         <li><a href="#contacto" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav>
 
   </header>
 
   <!-- INICIO -->
   <section id="inicio" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
       <h1>Gustavo Juarez</h1>
-      <p><span class="typed" data-typed-items="Developer, Freelancer"></span></p>
+      <p><span>Developer, Freelancer</span></p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -85,7 +81,7 @@
       </div>
     </section>
 
-  <!-- TRABAJOS -->
+    <!-- TRABAJOS -->
 
     <section id="trabajos" class="trabajos">
       <div class="container">
@@ -132,7 +128,7 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
-                <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
             </form>
 
           </div>
@@ -153,6 +149,12 @@
 
     </div>
   </footer>
+
+  <!-- Option 1: Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+
 
 
 </body>
