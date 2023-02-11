@@ -37,23 +37,20 @@
   <!-- INICIO -->
   <section id="inicio" class="d-flex flex-column justify-content-center">
     <div class="container">
-      <h1>Gustavo Juarez</h1>
-      <p><span>Developer, Freelancer</span></p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <h1 class='text-white p-4'>Gustavo Juarez</h1>
+      <p class='text-white p-3' ><span>Desarrollo de Sistemas Web a medida.</span></p>
+      <div class="social-links p-4">
+       <a href="#" class="instagram">Instagram<i class="bx bxl-instagram"></i></a>       
+        <a href="#" class="linkedin">linkedin<i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </section>
 
-  <main id="main">
+ 
 
     <!--SOBRE MI-->
     <section id="sobremi" class="sobremi">
-      <div class="container" data-aos="fade-up">
+      <div class="container">
 
         <div class="section-title">
           <h2>Sobre mi</h2>
@@ -66,7 +63,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/gdj.png" class="img-fluid" alt="">
+            <img src="assets/img/gdj.png" class="img-fluid p-4" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -86,7 +83,7 @@
     <section id="trabajos" class="trabajos">
       <div class="container">
         <div class="section-title">
-          <h2>Trabajos</h2>
+          <h2 class='text-white'>Trabajos</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
             Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
             Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -97,9 +94,9 @@
     <!-- CONTACTO -->
 
     <section id="contacto" class="contacto">
-      <div class="container">
+      <div class="container text-center">
         <div class="section-title">
-          <h2>Contacto</h2>
+          <h2 class='p-4'>Contacto</h2>
         </div>
         <div class="row mt-1">
 
@@ -111,9 +108,10 @@
             </div>
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8 ">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="nombre" required>
@@ -128,7 +126,7 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+              <button type="submit"class="btn btn-primary text-center mt-2">Enviar mensaje</button>
             </form>
 
           </div>
@@ -138,13 +136,13 @@
       </div>
     </section>
 
-  </main>
+  
 
 
   <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>gdjuarez</span></strong>. All Rights Reserved
+    <div class="container text-center">
+      <div class="copyright bg-dark text-white rounded">
+        &copy; Copyright <strong><span>gdjuarez</span></strong>
       </div>
 
     </div>
