@@ -68,10 +68,10 @@
     <section id="sobremi" class="sobremi  bg-light">
         <div class="container">
             <div class="row p-4">
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <img src="assets/img/gdj.png" class="img-fluid p-4" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="section-title">
                         <div class="card">
                             <div class="card-body">
