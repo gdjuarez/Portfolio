@@ -38,9 +38,9 @@
     <!-- INICIO -->
     <section id="inicio" class="d-flex flex-column justify-content-center ">
         <div class="container">
-            <h1 class=' p-6'>Gustavo Juarez</h1>
-            <p class=' p-3'><span>Desarrollo de Sistemas Web a medida.</span></p>
-            <div class="social-links p-4">
+            <h1 class='nombre mb-4'>Gustavo Juarez</h1>
+            <p class='actividad'><span>Desarrollo de Sistemas Web a medida.</span></p>
+            <div class="red_social">
                 <a href="#" class="instagram">
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
