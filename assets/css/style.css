@@ -46,22 +46,15 @@
     position: relative;
   }
   #inicio h1 {
-    font-size: 62px;
+    font-size: 54px;
     line-height: 36px;
-    margin-left: 120px;
     
   }
 
   #inicio p {
     margin-top: 10px;
-    font-size: 24px;
-    line-height: 12px;
-    margin-left: 120px;
-    
-  }
-  .red_social{
-    margin-left: 120px;
-    
+    font-size: 32px;
+    line-height: 24px;
   }
  
   #trabajos {
@@ -88,9 +81,6 @@
     } 
 
   .parrafo{
-    width:50%;
-    margin: auto;
-    margin-top: 100px;
     backdrop-filter: blur(8px);
     text-align: justify;
   }
