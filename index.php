@@ -52,7 +52,7 @@
     </section>
 
     <!-- TRABAJOS -->
-    <section id="trabajos" class="trabajos">
+    <section id="trabajos" class="trabajos p-4">
         <div class="container">
             <div class="section-title">
                 <h2 class='text-white'>Trabajos</h2>
@@ -65,13 +65,13 @@
     </section>
 
     <!--SOBRE MI-->
-    <section id="sobremi" class="sobremi  bg-light">
+    <section id="sobremi" class="sobremi  bg-lightnp-4">
         <div class="container">
             <div class="row p-4">
                 <div class="col-md-4">
                     <img src="assets/img/gdj.png" class="img-fluid p-4" alt="">
                 </div>
-                <div class="col-lg-6 pt-4">
+                <div class="col-md-6 pt-4">
                     <div class="section-title">
                         <div class="card">
                             <div class="card-body">
@@ -96,7 +96,7 @@
 
     <!-- CONTACTO -->
 
-    <section id="contacto" class="contacto bg-light">
+    <section id="contacto" class="contacto bg-light p-4">
         <div class="container text-center">
             <div class="section-title">
                 <h2 class='p-4'>Contacto</h2>
