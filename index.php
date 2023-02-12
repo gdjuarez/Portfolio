@@ -65,7 +65,7 @@
     </section>
 
     <!--SOBRE MI-->
-    <section id="sobremi" class="sobremi  bg-lightnp-4">
+    <section id="sobremi" class="sobremi  bg-light">
         <div class="container">
             <div class="row p-4">
                 <div class="col-md-4">
@@ -96,7 +96,7 @@
 
     <!-- CONTACTO -->
 
-    <section id="contacto" class="contacto bg-light p-4">
+    <section id="contacto" class="contacto bg-light">
         <div class="container text-center">
             <div class="section-title">
                 <h2 class='p-4'>Contacto</h2>
