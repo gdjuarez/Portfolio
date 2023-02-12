@@ -26,27 +26,23 @@
 
         <nav id="navbar" class="navbar nav-menu">
             <ul>
-                <li><a href="#inicio" class="nav-link scrollto active"><span>Inicio</span></a></li>
-                <li><a href="#trabajos" class="nav-link scrollto"><span>Trabajos</span></a></li>
-                <li><a href="#sobremi" class="nav-link scrollto"><span>Sobre mi</span></a></li>
-                <li><a href="#contacto" class="nav-link scrollto"><span>Contacto</span></a></li>
+                <li><a href="#inicio" class="nav-link "><span>Inicio</span></a></li>
+                <li><a href="#trabajos" class="nav-link "><span>Trabajos</span></a></li>
+                <li><a href="#sobremi" class="nav-link "><span>Sobre mi</span></a></li>
+                <li><a href="#contacto" class="nav-link "><span>Contacto</span></a></li>
             </ul>
         </nav>
 
     </header>
 
     <!-- INICIO -->
-    <section id="inicio" class="d-flex flex-column justify-content-center">
+    <section id="inicio" class="d-flex flex-column justify-content-center ">
         <div class="container">
-            <h1 class=' p-4'>Gustavo Juarez</h1>
+            <h1 class=' p-6'>Gustavo Juarez</h1>
             <p class=' p-3'><span>Desarrollo de Sistemas Web a medida.</span></p>
             <div class="social-links p-4">
-                <a href="#" class="instagram">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-                <a href="#" class="linkedin">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
+                <a href="#" class="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" class="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
         </div>
     </section>
