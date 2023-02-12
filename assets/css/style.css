@@ -76,7 +76,7 @@
   }
 
   
-  /* @media (max-width: 991px) {
+   @media (max-width: 991px) {
     #header {
       width: 300px;
       background: #fff;
@@ -89,4 +89,4 @@
     #main {
       margin-left: 150px;
     }
-  } */
+  } 
