@@ -54,44 +54,41 @@
     <!-- TRABAJOS -->
     <section id="trabajos" class="trabajos p-4">
         <div class="container">
-            <div class="section-title">
-                <h2 class='text-white'>Trabajos</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-                    Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                    ea.
-                    Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h2 class='text-white'>Trabajos</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                </div>
             </div>
+            </div>
+            
         </div>
     </section>
 
     <!--SOBRE MI-->
-    <section id="sobremi" class="sobremi  bg-light">
+    <section id="sobremi" class="sobremi ">
         <div class="container">
-            <div class="row p-4">
-                <div class="col-md-2">
-                    <img src="assets/img/gdj.png" class="img-fluid p-4" alt="">
-                </div>
-                <div class="col-md-8">
-                    <div class="section-title">
-                        <div class="card">
-                            <div class="card-body">
-                                <h2 class="card-title">Sobre mi</h2> 
-                                <p class="card-text" style="text-align:justify">Soy analista de sistemas, desarrollo sistemas web a medida para Comercios, Pymes y Profesionales.</p>
-                                <p class="card-text" style="text-align:justify">Tengo pasion por la programación y la creación de métodos que rindan soluciones prácticas.
-                                Mencantan los desafios y el aprendizaje continuo.</p>
-                                <p class="card-text" style="text-align:justify">En mis primeros años desarrolle aplicaciones y sistemas en Visual Basic .Net,
-                                 luego comence a realizar Apps moviles con Android Studio y continue con la programacion Web con PHP y Mysql para el Back-End
-                                  y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-2">
-
-                    </div>
-
-                </div>
+            <h2>Sobre mi</h2>
+            <div class="parrafo p-5">
+                <p class="text-white">Soy analista de sistemas, desarrollo
+                    sistemas web a medida para Comercios, Pymes y Profesionales.</p>
+                <p class="text-white">Tengo pasion por la programación y la
+                    creación de métodos que rindan soluciones prácticas.
+                    Mencantan los desafios y el aprendizaje continuo.</p>
+                <p class="text-white">En mis primeros años desarrolle aplicaciones
+                    y sistemas en Visual Basic .Net,
+                    luego comence a realizar Apps moviles con Android Studio y continue con la programacion
+                    Web con PHP y Mysql para el Back-End
+                    y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
             </div>
+        </div>
     </section>
 
     <!-- CONTACTO -->
@@ -112,7 +109,6 @@
                 </div>
 
                 <div class="col-lg-6 ">
-
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="form-row">
                             <div class="row">
@@ -135,14 +131,13 @@
                             </div>
                             <button type="submit" class="btn btn-primary text-center mt-2">Enviar mensaje</button>
                     </form>
-
                 </div>
+
                 <div class="col-2">
 
                 </div>
 
             </div>
-
         </div>
     </section>
 
@@ -150,11 +145,8 @@
 
 
     <footer id="footer">
-        <div class="container text-center">
-            <div class="copyright bg-dark text-white rounded">
-                &copy; Copyright <strong><span>gdjuarez</span></strong>
-            </div>
-
+        <div class="copyright bg-dark text-white rounded">
+            &copy; Copyright <strong><span>gdjuarez</span></strong>
         </div>
     </footer>
 
