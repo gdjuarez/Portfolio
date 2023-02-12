@@ -41,8 +41,12 @@
             <h1 class=' p-6'>Gustavo Juarez</h1>
             <p class=' p-3'><span>Desarrollo de Sistemas Web a medida.</span></p>
             <div class="social-links p-4">
-                <a href="#" class="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="#" class="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#" class="instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="linkedin">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
             </div>
         </div>
     </section>
@@ -64,26 +68,30 @@
     <section id="sobremi" class="sobremi  bg-light">
         <div class="container">
             <div class="row p-4">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <img src="assets/img/gdj.png" class="img-fluid p-4" alt="">
                 </div>
-                <div class="col-lg-8 pt-4">
+                <div class="col-lg-6 pt-4">
                     <div class="section-title">
-                        <h2>Sobre mi</h2>
-                    </div>
-                    <div class="sobremi_content border rounded p-4 ">
-                        <p>Soy analista de sistemas, desarrollo sistemas web a medida para Comercios, Pymes y
-                            Profesionales.
-                            Tengo pasion por la programación y la creación de métodos que rindan soluciones prácticas.
-                            Me encantan los desafios y el aprendizaje continuo.</p>
-                          <p>En mis primeros años desarrolle aplicaciones y sistemas en Visual Basic .Net, luego comence a realizar
-                             Apps moviles con Android Studio y continue con la programacion Web con PHP y Mysql para el Back-End
-                              y Bootstrap, Javascript (JQuery) y lo escencial en CSS para el Front-End</p>
-                    </div>
-                </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Sobre mi</h2> 
+                                <p class="card-text" style="text-align:justify">Soy analista de sistemas, desarrollo sistemas web a medida para Comercios, Pymes y Profesionales.</p>
+                                <p class="card-text" style="text-align:justify">Tengo pasion por la programación y la creación de métodos que rindan soluciones prácticas.
+                                Mencantan los desafios y el aprendizaje continuo.</p>
+                                <p class="card-text" style="text-align:justify">En mis primeros años desarrolle aplicaciones y sistemas en Visual Basic .Net,
+                                 luego comence a realizar Apps moviles con Android Studio y continue con la programacion Web con PHP y Mysql para el Back-End
+                                  y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+
+                </div>
             </div>
-          </div>
     </section>
 
     <!-- CONTACTO -->
