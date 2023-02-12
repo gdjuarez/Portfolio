@@ -55,19 +55,9 @@
     <section id="trabajos" class="trabajos p-4">
         <div class="container">
             <h2 class='text-white'>Trabajos</h2>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            </div>
+           <!-- CARRUSELL -->
+           
+           <!--  -->
             
         </div>
     </section>
