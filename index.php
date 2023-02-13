@@ -141,7 +141,7 @@
 
 
     <footer id="footer">
-        <div class="copyright bg-dark text-white rounded">
+        <div class="copyright bg-dark text-white text-center rounded">
             &copy; Copyright <strong><span>gdjuarez</span></strong>
         </div>
     </footer>
