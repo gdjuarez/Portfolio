@@ -46,8 +46,8 @@
     position: relative;
   }
   #inicio h1 {
-    font-size: 54px;
-    line-height: 36px;
+    font-size: 64px;
+    line-height: 40px;
     
   }
 
@@ -55,6 +55,7 @@
     margin-top: 10px;
     font-size: 32px;
     line-height: 24px;
+    color: #3e4141;
   }
  
   #trabajos {

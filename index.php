@@ -44,10 +44,10 @@
          
             <div class="red_social">
                 <a href="#" class="instagram">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    
                 </a>
                 <a href="#" class="linkedin">
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                    
                 </a>
             </div>
         </div>
@@ -153,7 +153,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
 
