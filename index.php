@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--fontawesome icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"  rel="stylesheet"
+/>
     <!-- jquery  -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -19,6 +21,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
      <!-- js personalizado -->
      <script src="assets/js/escribe_texto.js"></script>
+   
+
+     
 </head>
 
 <body>
@@ -42,12 +47,14 @@
             <h1 class='nombre mb-4'>Gustavo Juarez</h1>
             <p class='actividad' id='actividad'><span>-</span></p>
          
-            <div class="red_social">
+            <div class="red_social_instagram">
                 <a href="#" class="instagram">
-                    
+                <i class="fab fa-instagram"></i>
                 </a>
+            </div>
+            <div class="red_social_ln">
                 <a href="#" class="linkedin">
-                    
+                <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </div>
