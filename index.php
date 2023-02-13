@@ -40,7 +40,7 @@
     <section id="inicio" class="d-flex flex-column justify-content-center ">
         <div class="container">
             <h1 class='nombre mb-4'>Gustavo Juarez</h1>
-            <p class='actividad' id='actividad'><span></span></p>
+            <p class='actividad' id='actividad'><span>-</span></p>
          
             <div class="red_social">
                 <a href="#" class="instagram">
