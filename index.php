@@ -17,7 +17,8 @@
     <title>Portfolio</title>
     <!--  CSS personalizado -->
     <link href="assets/css/style.css" rel="stylesheet">
-
+     <!-- js personalizado -->
+     <script src="assets/js/escribe_texto.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,8 @@
     <section id="inicio" class="d-flex flex-column justify-content-center ">
         <div class="container">
             <h1 class='nombre mb-4'>Gustavo Juarez</h1>
-            <p class='actividad'><span>Desarrollo de Sistemas Web a medida.</span></p>
+            <p class='actividad' id='actividad'><span></span></p>
+         
             <div class="red_social">
                 <a href="#" class="instagram">
                     <ion-icon name="logo-instagram"></ion-icon>
