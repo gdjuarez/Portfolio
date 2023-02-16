@@ -38,13 +38,14 @@
     transition: 0.5s;    
   }  
 
-  #inicio {
+   #inicio {
     width: 100%;
     height: 100vh;
     background: url("../img/muro-hormigon-gris.jpg") top right no-repeat;
     background-size: cover;
     position: relative;
-  }
+  } 
+  
   #inicio h1 {
     font-size: 64px;
     line-height: 40px;
@@ -58,15 +59,15 @@
     color: #3e4141;
   }
  
-    /* #trabajos {
+   #trabajos {
     width: 100%;
    height: 100vh;   
     position: relative; 
-  }   */
+  }   
 
-  .section .grid{
+  .trabajos .grid{
     width: 90%;
-    background: #22289b;
+    background: #1f1f21;
 
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(10rem.1fr));

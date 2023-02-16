@@ -26,7 +26,6 @@
 <body>
 
     <header id="header" class="d-flex flex-column justify-content-center">
-
         <nav id="navbar" class="navbar nav-menu">
             <ul>
                 <li><a href="#inicio" class="nav-link "><span>Inicio</span></a></li>
@@ -40,7 +39,7 @@
     <div class="main">
         <!-- INICIO -->
         <section id="inicio" class="d-flex flex-column justify-content-center ">
-            <div class="container">
+            <div class="container p-4">
                 <h1 class='nombre mb-4'>Gustavo Juarez</h1>
                 <p class='actividad' id='actividad'><span>-</span></p>
 
@@ -59,35 +58,35 @@
 
         <!-- TRABAJOS -->
         <section id="trabajos" class="trabajos p-4">
-         
-                <h2 >Trabajos</h2>
-                <div class="grid">
-                    <article class="article">
-                        <a href="#"></a>
-                        <figure class="figure">
-                            <!-- <img src="assets/img/HEC.JPG" alt="" srcset=""> -->
-                        </figure>
-                    </article>
-                    <article class="article">
-                        <a href="#"></a>
-                        <figure class="figure">
-                            <!-- <img src="assets/img/maderas_mercedes.JPG" alt="" srcset=""> -->
-                        </figure>
-                    </article>
-                    <article class="article">
-                        <a href="#"></a>
-                        <figure class="figure">
-                            <!-- <img src="assets/img/prestamos.JPG" alt="" srcset=""> -->
-                        </figure>
-                    </article>
-                    <article class="article">
-                        <a href="#"></a>
-                        <figure class="figure">
-                            <!-- <img src="assets/img/mitho.JPG" alt="" srcset=""> -->
-                        </figure>
-                    </article>
-                </div>
-           
+
+            <h2>Trabajos</h2>
+            <div class="grid">
+                <article class="article">
+                    <a href="#"></a>
+                    <figure class="figure">
+                        <!-- <img src="assets/img/HEC.JPG" alt="" srcset=""> -->
+                    </figure>
+                </article>
+                <article class="article">
+                    <a href="#"></a>
+                    <figure class="figure">
+                        <!-- <img src="assets/img/maderas_mercedes.JPG" alt="" srcset=""> -->
+                    </figure>
+                </article>
+                <article class="article">
+                    <a href="#"></a>
+                    <figure class="figure">
+                        <!-- <img src="assets/img/prestamos.JPG" alt="" srcset=""> -->
+                    </figure>
+                </article>
+                <article class="article">
+                    <a href="#"></a>
+                    <figure class="figure">
+                        <!-- <img src="assets/img/mitho.JPG" alt="" srcset=""> -->
+                    </figure>
+                </article>
+            </div>
+
         </section>
 
         <!--SOBRE MI-->
