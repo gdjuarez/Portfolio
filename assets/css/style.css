@@ -60,9 +60,16 @@
  
   #trabajos {
     width: 100%;
-    height: 100vh;   
+    /* height: 100vh;   
+    position: relative;  */
+  }
+
+  .seccion .article{
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
     position: relative;
-    
 
   }
 

@@ -86,10 +86,7 @@
                             <img src="assets/img/mitho.JPG" alt="" srcset="">
                         </figure>
                     </article>
-                   
-
                 </div>
-
             </div>
         </section>
 
