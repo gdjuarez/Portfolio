@@ -59,35 +59,35 @@
 
         <!-- TRABAJOS -->
         <section id="trabajos" class="trabajos p-4">
-            <div class="container">
-                <h2 class='text-white'>Trabajos</h2>
+         
+                <h2 >Trabajos</h2>
                 <div class="grid">
                     <article class="article">
                         <a href="#"></a>
                         <figure class="figure">
-                            <img src="assets/img/HEC.JPG" alt="" srcset="">
+                            <!-- <img src="assets/img/HEC.JPG" alt="" srcset=""> -->
                         </figure>
                     </article>
                     <article class="article">
                         <a href="#"></a>
                         <figure class="figure">
-                            <img src="assets/img/maderas_mercedes.JPG" alt="" srcset="">
+                            <!-- <img src="assets/img/maderas_mercedes.JPG" alt="" srcset=""> -->
                         </figure>
                     </article>
                     <article class="article">
                         <a href="#"></a>
                         <figure class="figure">
-                            <img src="assets/img/prestamos.JPG" alt="" srcset="">
+                            <!-- <img src="assets/img/prestamos.JPG" alt="" srcset=""> -->
                         </figure>
                     </article>
                     <article class="article">
                         <a href="#"></a>
                         <figure class="figure">
-                            <img src="assets/img/mitho.JPG" alt="" srcset="">
+                            <!-- <img src="assets/img/mitho.JPG" alt="" srcset=""> -->
                         </figure>
                     </article>
                 </div>
-            </div>
+           
         </section>
 
         <!--SOBRE MI-->
