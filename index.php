@@ -192,7 +192,7 @@
                                 <span class="card_title">Gestoria Belgrano</span>
                                 <span class="card_subtitle">Sistema de Gestión trámites de documentacion</span>
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql. Comprende un modulo server y
-                                     una aplicaciones clientes remotas (por intranet).</p>
+                                     una aplicaciones clientes remotas (por intranet).(formando parte del equipo GIFSys)</p>
                                      <p><small>Implementado año 2017 y continua...</small></p>
                             </div>
                         </article>
