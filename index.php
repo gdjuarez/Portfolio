@@ -218,7 +218,6 @@
     </section>
 
     <!-- CONTACTO -->
-
     <section id="contacto" class="contacto bg-light">
         <div class="container text-center">
             <div class="section-title">
@@ -235,24 +234,23 @@
                 </div>
 
                 <div class="col-lg-6 ">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="forms/email.php" method="post" role="form" class="php-email-form">
                         <div class="form-row">
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="nombre"
+                                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="nombre"
                                         required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="correo" required>
+                                    <input type="email" class="form-control" name="correo" placeholder="correo" required>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto"
                                     required>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
+                                <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje"
                                     required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary text-center mt-2">Enviar mensaje</button>
