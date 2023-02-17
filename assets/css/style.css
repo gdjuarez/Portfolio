@@ -61,47 +61,17 @@
  
    #trabajos {
     width: 100%;
-   height: 100vh;   
+    height: 100vh;   
     position: relative; 
-  }   
-
-  .trabajos .grid{
-    width: 90%;
-    background: #1f1f21;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(10rem.1fr));
-
-  }
-  /* .section .article{
-    width: 100%;
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    background-color: #22289b;
-  }
-
-  .section .figure{
-    width: 100%;
-    background-color: #0d0e0e;
-
-  }
-  .section img{
-    width: 100%;
-    background-color: #e4a208; 
-  }
-  */
-
+  }    
+ 
 
    #sobremi {
     width: 100%;
     height: 100vh;
     background: url("../img/programador-trabajando.jpg") top right no-repeat;
     background-size: cover; 
-    position: relative;
-    
+    position: relative;    
     } 
 
   #contacto {

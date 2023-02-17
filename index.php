@@ -57,112 +57,123 @@
         </section>
 
         <!-- TRABAJOS -->
-        <section id="trabajos" class="trabajos p-4">
-
-            <h2>Trabajos</h2>
-            <div class="grid">
-                <article class="article">
-                    <a href="#"></a>
-                    <figure class="figure">
-                        <!-- <img src="assets/img/HEC.JPG" alt="" srcset=""> -->
-                    </figure>
-                </article>
-                <article class="article">
-                    <a href="#"></a>
-                    <figure class="figure">
-                        <!-- <img src="assets/img/maderas_mercedes.JPG" alt="" srcset=""> -->
-                    </figure>
-                </article>
-                <article class="article">
-                    <a href="#"></a>
-                    <figure class="figure">
-                        <!-- <img src="assets/img/prestamos.JPG" alt="" srcset=""> -->
-                    </figure>
-                </article>
-                <article class="article">
-                    <a href="#"></a>
-                    <figure class="figure">
-                        <!-- <img src="assets/img/mitho.JPG" alt="" srcset=""> -->
-                    </figure>
-                </article>
+        <section id="trabajos" class="trabajos  bg-light">
+       
+            <div class="container p-2">
+            <h2>Algunos de mis trabajos</h2>
+                <div class="row p-4">
+                    <div class="col-sm-4">
+                       
+                            <a href="#">1</a>                            
+                                <img src="assets/img/HEC.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
+                        
+                    </div>
+                    <div class="col-sm-4">
+                     
+                            <a href="#">2</a>                          
+                                <img src="assets/img/maderas_mercedes.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
+                         
+                    </div>
+                 
+                    <div class="col-sm-4">                     
+                            <a href="#">3</a>                          
+                                <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="" srcset="">                           
+                    </div>
+                </div>
+                <div class="row p-4">
+                    <div class="col-sm-4">                       
+                            <a href="#">4</a>  
+                            <img src="assets/img/prestamos.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
+                    </div>
+                  
+                    <div class="col-sm-4">                      
+                            <a href="#">5</a>
+                            <img src="assets/img/compartir.JPG" class="img-fluid img-thumbnail" alt="" srcset=""> 
+                    </div>
+                    <div class="col-sm-4">                     
+                            <a href="#">6</a>                          
+                                <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="" srcset="">  
+                                                         
+                    </div>
+                </div>
             </div>
+    </div>
+    </section>
 
-        </section>
-
-        <!--SOBRE MI-->
-        <section id="sobremi" class="sobremi ">
-            <div class="container">
-                <div class="row">
-                    <h2>Sobre mi</h2>
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi ">
+        <div class="container">
+            <div class="row">
+                <h2>Sobre mi</h2>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="parrafo p-5">
+                        <p class="text-white">Soy analista de sistemas, desarrollo
+                            sistemas web a medida para Comercios, Pymes y Profesionales.</p>
+                        <p class="text-white">Tengo pasion por la programación y la
+                            creación de métodos que rindan soluciones prácticas.
+                            Mencantan los desafios y el aprendizaje continuo.</p>
+                        <p class="text-white">En mis primeros años desarrolle aplicaciones
+                            y sistemas en Visual Basic .Net,
+                            luego comence a realizar Apps moviles con Android Studio y continue con la programacion
+                            Web con PHP y Mysql para el Back-End
+                            y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
+                    </div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-4">
-                        <div class="parrafo p-5">
-                            <p class="text-white">Soy analista de sistemas, desarrollo
-                                sistemas web a medida para Comercios, Pymes y Profesionales.</p>
-                            <p class="text-white">Tengo pasion por la programación y la
-                                creación de métodos que rindan soluciones prácticas.
-                                Mencantan los desafios y el aprendizaje continuo.</p>
-                            <p class="text-white">En mis primeros años desarrolle aplicaciones
-                                y sistemas en Visual Basic .Net,
-                                luego comence a realizar Apps moviles con Android Studio y continue con la programacion
-                                Web con PHP y Mysql para el Back-End
-                                y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- CONTACTO -->
+    <!-- CONTACTO -->
 
-        <section id="contacto" class="contacto bg-light">
-            <div class="container text-center">
-                <div class="section-title">
-                    <h2 class='p-4'>Contacto</h2>
-                </div>
-                <div class="row mt-1">
-
-                    <div class="col-lg-4">
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>dev@gdjuarez.site</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 ">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="form-row">
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" name="name" class="form-control" id="name"
-                                            placeholder="nombre" required>
-                                    </div>
-                                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="correo" required>
-                                    </div>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <input type="text" class="form-control" name="subject" id="subject"
-                                        placeholder="Asunto" required>
-                                </div>
-                                <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
-                                        required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary text-center mt-2">Enviar mensaje</button>
-                        </form>
-                    </div>
-
-                    <div class="col-2">
-
-                    </div>
-
-                </div>
+    <section id="contacto" class="contacto bg-light">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2 class='p-4'>Contacto</h2>
             </div>
-        </section>
+            <div class="row mt-1">
+
+                <div class="col-lg-4">
+                    <div class="email">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>dev@gdjuarez.site</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="nombre"
+                                        required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="correo" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                    required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary text-center mt-2">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <div class="col-2">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
     </div>
 
     <footer id="footer">
