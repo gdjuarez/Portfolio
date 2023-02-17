@@ -40,19 +40,8 @@
         <!-- INICIO -->
         <section id="inicio" class="d-flex flex-column justify-content-center ">
             <div class="container p-4">
-                <h1 class='nombre mb-4'>Gustavo Juarez</h1>
-                <p id='actividad' class='actividad text-grey'><span>-</span></p>
-
-                <div class="red_social_instagram">
-                    <a href="#" class="instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="red_social_ln">
-                    <a href="#" class="linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
+                <h1 class='minombre mb-4'>Gustavo Juarez</h1>
+                <p id='actividad' class='actividad text-grey'><span>-</span></p>              
             </div>
         </section>
 
@@ -60,7 +49,7 @@
         <section id="trabajos" class="trabajos  bg-light">
 
             <div class="container p-2">
-                <h2>Algunos de mis trabajos</h2>
+                <h2 class="neon">Mis trabajos</h2>
                 <div class="row p-4">
                     <div class="col-sm-4">
                         <article class="card">
@@ -207,7 +196,7 @@
     <section id="sobremi" class="sobremi ">
         <div class="container">
             <div class="row">
-                <h2>Sobre mi</h2>
+                <h2 class="neon p-4">Sobre mi</h2>
                 <div class="col-md-2"></div>
                 <div class="col-md-4">
                     <div class="parrafo p-5">
@@ -233,7 +222,7 @@
     <section id="contacto" class="contacto bg-light">
         <div class="container text-center">
             <div class="section-title">
-                <h2 class='p-4 text-light'>Contacto</h2>
+                <h2 class='neon p-4'>Contacto</h2>
             </div>
             <div class="row mt-1">
 

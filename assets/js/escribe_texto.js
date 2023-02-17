@@ -13,12 +13,9 @@ $(document).ready(function() {
             i=-1;
           }       
         i++;       
-      }  
+      }        
 
-      
-
-    }
-   
+    }   
   
     setInterval(writeText,150);
    

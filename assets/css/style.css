@@ -1,201 +1,208 @@
-
-
 #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 18px;
-    overflow-y: auto;
-  }
-    
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 18px;
+  overflow-y: auto;
+}
+
 .nav-menu {
-    padding: 0;
-    display: block;
-  }
-  
-  .nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style:none;
-  }  
-  
-  .nav-menu a  {
-    display: flex;
-    align-items: center;
-    color: #f3f6f9; 
-    padding: 15px 18px;
-    margin-bottom: 8px;
-    transition: 0.2s;
-    font-size: 15px;
-    border-radius: 50px;
-    background: #22289b;
-    height: 45px;
-    width: 100%;    
-  }  
-  .nav-menu a:hover  {   
-    color: #0d0e0e;
-    transition: 0.5s;    
-  }  
+  padding: 0;
+  display: block;
+}
 
-   #inicio {
-    width: 100%;
-    height: 100vh;
-    background: #fc00ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  } 
-  
-  #inicio h1 {
-    font-size: 78px;
-    line-height: 40px;
-    font-family: monospace;
-    
-   
-    
-  }
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #f3f6f9;
+  padding: 15px 18px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+  font-size: 15px;
+  border-radius: 50px;
+  background: #22289b;
+  text-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 100px #03e9f4;
+  height: 45px;
+  width: 100%;
+}
 
-  #inicio p {
-    margin-top: 15px;
-    font-size: 22px;
-    line-height: 24px;
-    font-family: monospace;
-    color: rgb(7, 72, 113);
-  }
- 
-  #trabajos {  
-  
-    background: #fc00ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.nav-menu a:hover {
+  color: #0d0e0e;
+  transition: 0.5s;
+}
 
-  } 
-  .trabajos h2 {
-   font-family: monospace;
-  }    
- 
+#inicio {
+  width: 100%;
+  height: 100vh;
+  background: #fc00ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00dbde, #fc00ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-   #sobremi {
-    width: 100%;
-    height: 100vh;
-    background: url("../img/programador-trabajando.jpg") top right no-repeat;
-    background-size: cover; 
-    position: relative;    
-    } 
+}
 
-  #contacto {
-    width: 100%;
-    height: 100vh; 
-    background: url("../img/email.jpg") top right no-repeat;
-    background-size: cover;  
-    position: relative; 
-    } 
+#inicio h1 {
+  font-family: monospace;
+  font-size: 6em;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+  letter-spacing: 8px;
+  cursor: pointer;
+  transition: 3s;
+}
+#inicio p {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: monospace;
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.neon{
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: 200;
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4, 
+  0 0 50px #03e9f4,
+  0 0 100px #03e9f4;
+  letter-spacing: 1px;
+  cursor: pointer;   
+  transition: 3s;
+ }    
 
-  .parrafo{
-    backdrop-filter: blur(8px);
-    text-align: justify;
-  }
 
- 
-   @media (max-width: 991px) {
-    #header {
-      width: 300px;
-      background: #fff;
-      border-right: 1px solid #e6e9ec;
-      left: -300px;
-    }
-  } 
-   
-  /* cards  trabajos*/
-  .card {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    color: #2e2d31;
-    background: #131313;
-    overflow: hidden;
-    border-radius: 20px;
+#trabajos {
+  background: #fc00ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fc00ff, #00dbde);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fc00ff, #00dbde);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#sobremi {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/programador-trabajando.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parrafo {
+  backdrop-filter: blur(8px);
+  text-align: justify;
+}
+
+#contacto {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/email.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*  cards  trabajos */
+.card {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  color: #2e2d31;
+  background: #131313;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.temporary_text {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 6px 12px;
+  color: #f8f8f8;
+}
+
+.card_title {
+  font-weight: bold;
+}
+
+.card_content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* edit the width to fit card */
+  width: 100%;
+  padding: 20px;
+  background: #f2f2f2;
+  border-top-left-radius: 20px;
+  /* edit here to change the height of the content box */
+  transform: translateY(150px);
+  transition: transform .25s;
+}
+
+.card_content::before {
+  content: '';
+  position: absolute;
+  top: -47px;
+  right: -45px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-175deg);
+  border-radius: 50%;
+  box-shadow: inset 48px 48px #f2f2f2;
+}
+
+.card_title {
+  color: #131313;
+  line-height: 15px;
+}
+
+.card_subtitle {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card_description {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.card:hover .card_content {
+  transform: translateY(0);
+}
+
+.card:hover .card_description {
+  opacity: 1;
+  transition-delay: .25s;
+}
+
+
+@media (max-width: 991px) {
+  #header {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
   }
-  
-  .temporary_text {
-    font-weight: bold;
-    font-size: 24px;
-    padding: 6px 12px;
-    color: #f8f8f8;
-  }
-  
-  .card_title {
-    font-weight: bold;
-  }
-  
-  .card_content {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-      /* edit the width to fit card */
-    width: 100%;
-    padding: 20px;
-    background: #f2f2f2;
-    border-top-left-radius: 20px;
-      /* edit here to change the height of the content box */
-    transform: translateY(150px);
-    transition: transform .25s;
-  }
-  
-  .card_content::before {
-    content: '';
-    position: absolute;
-    top: -47px;
-    right: -45px;
-    width: 100px;
-    height: 100px;
-    transform: rotate(-175deg);
-    border-radius: 50%;
-    box-shadow: inset 48px 48px #f2f2f2;
-  }
-  
-  .card_title {
-    color: #131313;
-    line-height: 15px;
-  }
-  
-  .card_subtitle {
-    display: block;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  
-  .card_description {
-    font-size: 14px;
-    opacity: 0;
-    transition: opacity .5s;
-  }
-  
-  .card:hover .card_content {
-    transform: translateY(0);
-  }
-  
-  .card:hover .card_description {
-    opacity: 1;
-    transition-delay: .25s;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
