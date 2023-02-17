@@ -54,6 +54,8 @@
     line-height: 40px;
     font-family: monospace;
     
+   
+    
   }
 
   #inicio p {
@@ -61,6 +63,7 @@
     font-size: 22px;
     line-height: 24px;
     font-family: monospace;
+    color: rgb(7, 72, 113);
   }
  
   #trabajos {  

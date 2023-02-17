@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
    
   
-    setInterval(writeText,200);
+    setInterval(writeText,150);
    
 
     
