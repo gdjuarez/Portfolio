@@ -41,7 +41,7 @@
         <section id="inicio" class="d-flex flex-column justify-content-center ">
             <div class="container p-4">
                 <h1 class='nombre mb-4'>Gustavo Juarez</h1>
-                <p class='actividad' id='actividad'><span>-</span></p>
+                <p  id='actividad' class='actividad text-grey'><span>-</span></p>
 
                 <div class="red_social_instagram">
                     <a href="#" class="instagram">
@@ -64,35 +64,35 @@
                 <div class="row p-4">
                     <div class="col-sm-4">
                        
-                            <a href="#">1</a>                            
+                            <a href="#">Instituto de enseñanza de inglés</a>                            
                                 <img src="assets/img/HEC.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
                         
                     </div>
                     <div class="col-sm-4">
                      
-                            <a href="#">2</a>                          
+                            <a href="#">Aserradero</a>                          
                                 <img src="assets/img/maderas_mercedes.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
                          
                     </div>
                  
                     <div class="col-sm-4">                     
-                            <a href="#">3</a>                          
+                            <a href="#">Tienda de ropa femenina</a>                          
                                 <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="" srcset="">                           
                     </div>
                 </div>
                 <div class="row p-4">
                     <div class="col-sm-4">                       
-                            <a href="#">4</a>  
+                            <a href="#">Gestion de prestamos de netbooks -EES n° 1 </a>  
                             <img src="assets/img/prestamos.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
                     </div>
                   
                     <div class="col-sm-4">                      
-                            <a href="#">5</a>
+                            <a href="#">App para compartir archivos -EES n° 1</a>
                             <img src="assets/img/compartir.JPG" class="img-fluid img-thumbnail" alt="" srcset=""> 
                     </div>
                     <div class="col-sm-4">                     
-                            <a href="#">6</a>                          
-                                <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="" srcset="">  
+                            <a href="#">Gestion de CERELMER</a>                          
+                                <img src="assets/img/Cerelmer.JPG" class="img-fluid img-thumbnail" alt="" srcset="">  
                                                          
                     </div>
                 </div>
@@ -130,7 +130,7 @@
     <section id="contacto" class="contacto bg-light">
         <div class="container text-center">
             <div class="section-title">
-                <h2 class='p-4'>Contacto</h2>
+                <h2 class='p-4 text-light'>Contacto</h2>
             </div>
             <div class="row mt-1">
 

@@ -41,14 +41,16 @@
    #inicio {
     width: 100%;
     height: 100vh;
-    background: url("../img/muro-hormigon-gris.jpg") top right no-repeat;
-    background-size: cover;
-    position: relative;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   } 
   
   #inicio h1 {
-    font-size: 64px;
+    font-size: 78px;
     line-height: 40px;
+    font-family: monospace;
     
   }
 
@@ -56,14 +58,12 @@
     margin-top: 15px;
     font-size: 22px;
     line-height: 24px;
-    color: #3e4141;
+    font-family: monospace;
   }
  
-   /* #trabajos {
-    width: 100%;
-    height: 100vh;   
-    position: relative; 
-  }     */
+  .trabajos h2 {
+   font-family: monospace;
+  }    
  
 
    #sobremi {
@@ -76,7 +76,9 @@
 
   #contacto {
     width: 100%;
-    height: 100vh;  
+    height: 100vh; 
+    background: url("../img/email.jpg") top right no-repeat;
+    background-size: cover;  
     position: relative; 
     } 
 
