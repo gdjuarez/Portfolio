@@ -8,8 +8,8 @@
 
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
-    $from = "mensaje@gifsys.com.ar";
-    $to = "infogifsys@gmail.com";
+    $from = "dev@gdjuarez-site";
+    $to = "gdjuarez@hotmail.com";
     $subject =  $asunto ;
     $message =  "correo: ".$correo." Nombre: ".$nombre." Mensaje:".$mensaje;
     $headers = "From:" . $from;
@@ -20,7 +20,7 @@
     echo "</script>";  
     
      echo "<script language='javascript'>"; 
-     echo "window.location.href = 'http://gifsys.com.ar/contact.html'";
+     echo "window.location.href = 'http://gdjuarez.site'";
        echo "</script>";  
     ?>
     
