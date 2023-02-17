@@ -63,6 +63,14 @@
     font-family: monospace;
   }
  
+  #trabajos {
+    width: 100%;
+    height: 100vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  } 
   .trabajos h2 {
    font-family: monospace;
   }    
@@ -102,8 +110,8 @@
   /* cards  trabajos*/
   .card {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     color: #2e2d31;
     background: #131313;
     overflow: hidden;
