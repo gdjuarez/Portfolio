@@ -153,6 +153,52 @@
                     </div>
               
                 </div>
+
+                 <div class="row p-4">
+                 <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/coyote.PNG" class="img-fluid img-thumbnail" alt="net" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Coyote </span>
+                                <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
+                                <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
+                                    <p><small>Implementado año 2020 y continua...</small></p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/libreria.PNG" class="img-fluid img-thumbnail" alt="archivos" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Libreria Bigogno</span>
+                                <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
+                                <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
+                                    <p><small>Implementado año 2018 y continua...</small></p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/gestoria_belgrano.PNG" class="img-fluid img-thumbnail" alt="cerelmer" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Gestoria Belgrano</span>
+                                <span class="card_subtitle">Sistema de Gestión trámites</span>
+                                <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql. Comprende un modulo server y
+                                     una aplicaciones clientes remotas (por intranet).</p>
+                                     <p><small>Implementado año 2012 y continua...</small></p>
+                            </div>
+                        </article>
+                    </div>
+              
+                </div>
             </div>
     </div>
     </section>
