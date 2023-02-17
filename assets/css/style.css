@@ -63,8 +63,7 @@
     font-family: monospace;
   }
  
-  #trabajos {
-   
+  #trabajos {  
   
     background: #fc00ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
