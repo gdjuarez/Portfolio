@@ -8,7 +8,7 @@
 
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
-    $from = "dev@gdjuarez-site";
+    $from = "dev@gdjuarez.site";
     $to = "gdjuarez@hotmail.com";
     $subject =  $asunto ;
     $message =  "correo: ".$correo." Nombre: ".$nombre." Mensaje:".$mensaje;
