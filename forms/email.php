@@ -19,8 +19,11 @@
     echo "alert('Muchas Gracias, el correo fue enviado.')"; 
     echo "</script>";  
     
-     echo "<script language='javascript'>"; 
+   /*   echo "<script language='javascript'>"; 
      echo "window.location.href = 'http://gdjuarez.site'";
-       echo "</script>";  
+       echo "</script>";   */
     ?>
-    
+     <!--   sweet alert  -->
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="correoEnviado.js"></script>
