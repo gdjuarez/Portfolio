@@ -41,7 +41,7 @@
         <section id="inicio" class="d-flex flex-column justify-content-center ">
             <div class="container p-4">
                 <h1 class='nombre mb-4'>Gustavo Juarez</h1>
-                <p  id='actividad' class='actividad text-grey'><span>-</span></p>
+                <p id='actividad' class='actividad text-grey'><span>-</span></p>
 
                 <div class="red_social_instagram">
                     <a href="#" class="instagram">
@@ -58,43 +58,100 @@
 
         <!-- TRABAJOS -->
         <section id="trabajos" class="trabajos  bg-light">
-       
+
             <div class="container p-2">
-            <h2>Algunos de mis trabajos</h2>
+                <h2>Algunos de mis trabajos</h2>
                 <div class="row p-4">
                     <div class="col-sm-4">
-                       
-                            <a href="#">Instituto de enseñanza de inglés</a>                            
-                                <img src="assets/img/HEC.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
-                        
+                        <article class="card">
+                            <div class="temporary_text">
+                                <img src="assets/img/HEC.JPG" class="img-fluid img-thumbnail" alt="HEC" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Happy English Center</span>
+                                <span class="card_subtitle">Sistema de Gestión de Instituto de Inglés.</span>
+                                <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
+                                    bootstrap y Javascript para el (Front-end).</p>
+                                    <p><small>Implementado año 2021 y continua...</small></p>
+                            </div>
+                        </article>
                     </div>
                     <div class="col-sm-4">
-                     
-                            <a href="#">Aserradero</a>                          
-                                <img src="assets/img/maderas_mercedes.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
-                         
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/maderas_mercedes.JPG" class="img-fluid img-thumbnail" alt="maderas" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Maderas Mercedes</span>
+                                <span class="card_subtitle">Sistema de Presupuestos de un Aserradero.</span>
+                                <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
+                                    bootstrap y Javascript para el (Front-end).</p>
+                                    <p><small>Implementado año 2021 y continua...</small></p>
+                            </div>
+                        </article>
                     </div>
-                 
-                    <div class="col-sm-4">                     
-                            <a href="#">Tienda de ropa femenina</a>                          
-                                <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="" srcset="">                           
-                    </div>
+                    <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="ropa" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Mitho</span>
+                                <span class="card_subtitle">Sistema de Gestión de Comercio. Genera etiquetas(precios, descripcion,codigo de barras)</span>
+                                <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
+                                    bootstrap y Javascript para el (Front-end).</p>
+                                    <p><small>Implementado año 2022</small></p>
+                            </div>
+                        </article>
+                    </div>                   
                 </div>
+
                 <div class="row p-4">
-                    <div class="col-sm-4">                       
-                            <a href="#">Gestion de prestamos de netbooks -EES n° 1 </a>  
-                            <img src="assets/img/prestamos.JPG" class="img-fluid img-thumbnail" alt="" srcset="">
+                 <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/prestamos.JPG" class="img-fluid img-thumbnail" alt="net" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Gestion de Netbooks Escolares -EES n° 1 </span>
+                                <span class="card_subtitle">Control de dispositivos de la escuela y reserva de turnos de sala de medios</span>
+                                <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
+                                    bootstrap y Javascript para el (Front-end).</p>
+                                    <p><small>Implementado año 2022 y continua...</small></p>
+                            </div>
+                        </article>
                     </div>
-                  
-                    <div class="col-sm-4">                      
-                            <a href="#">App para compartir archivos -EES n° 1</a>
-                            <img src="assets/img/compartir.JPG" class="img-fluid img-thumbnail" alt="" srcset=""> 
+
+                    <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/compartir.JPG" class="img-fluid img-thumbnail" alt="archivos" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">App para Compartir Archivos -EES n° 1</span>
+                                <span class="card_subtitle">Uso de Profesores y alumnos para las clases</span>
+                                <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
+                                    bootstrap y Javascript para el (Front-end).</p>
+                                    <p><small>Implementado año 2022 y continua...</small></p>
+                            </div>
+                        </article>
                     </div>
-                    <div class="col-sm-4">                     
-                            <a href="#">Gestion de CERELMER</a>                          
-                                <img src="assets/img/Cerelmer.JPG" class="img-fluid img-thumbnail" alt="" srcset="">  
-                                                         
+
+                    <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/Cerelmer.JPG" class="img-fluid img-thumbnail" alt="cerelmer" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">CERELMER</span>
+                                <span class="card_subtitle">Sistema de Gestión del Centro de Rehabilitacion del Lisiado de Mercedes</span>
+                                <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql. Comprende un modulo de Administración y
+                                     una aplicacion remota (por intranet) para el uso de los medicos en sus consultorios dentro de la institucion.</p>
+                                     <p><small>Implementado año 2012 y continua...</small></p>
+                            </div>
+                        </article>
                     </div>
+              
                 </div>
             </div>
     </div>
