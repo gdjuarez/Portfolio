@@ -9,7 +9,7 @@
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     $from = "dev@gdjuarez.site";
-    $to = "gdjuarez@hotmail.com";
+    $to = "dev@gdjuarez.site";
     $subject =  $asunto ;
     $message =  "correo: ".$correo." Nombre: ".$nombre." Mensaje:".$mensaje;
     $headers = "From:" . $from;
