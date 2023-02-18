@@ -41,7 +41,8 @@
         <section id="inicio" class="d-flex flex-column justify-content-center ">
             <div class="container p-4">
                 <h1 class='minombre mb-4'>Gustavo Juarez</h1>
-                <p id='actividad' class='actividad text-grey'><span>-</span></p>              
+                <p id='actividad' class='actividad text-grey'><span>-</span></p>     
+                     
             </div>
         </section>
 
@@ -76,6 +77,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2021 y continua...</small></p>
+                                    <
                             </div>
                         </article>
                     </div>
