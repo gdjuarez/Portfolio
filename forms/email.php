@@ -15,15 +15,29 @@
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
     
-    echo "<script language='javascript'>"; 
+   /*   echo "<script language='javascript'>"; 
     echo "alert('Muchas Gracias, el correo fue enviado.')"; 
     echo "</script>";  
     
-   /*   echo "<script language='javascript'>"; 
+    echo "<script language='javascript'>"; 
      echo "window.location.href = 'http://gdjuarez.site'";
        echo "</script>";   */
     ?>
      <!--   sweet alert  -->
  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<script src="correoEnviado.js"></script>
+<script language='javascript'>
+
+ 
+Swal.fire({
+	title:'Muchas Gracias, el correo fue enviado',
+	icon:'info',
+	timer:'1500',
+	timerProgressBar:true
+  }).then(function(){ 
+	window.location.href = "../../index.php";
+	}
+
+  );
+
+</script>
