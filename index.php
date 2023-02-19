@@ -200,6 +200,7 @@
                                 <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
                                     <p><small>Implementado año 2018 y continua...</small></p>
+                                    <a href="https://github.com/gdjuarez/Libreria_Bigogno" class="">github</a>
                                     <span class="devicons devicons-windows"></span>
                                     <span class="devicons devicons-mysql"></span>
                             </div>
