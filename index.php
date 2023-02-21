@@ -238,15 +238,13 @@
                 <div class="col-md-4">
                     <div class="parrafo p-5">
                         <p class="text-white">Soy analista de sistemas, desarrollo
-                            sistemas web a medida para Comercios, Pymes y Profesionales.</p>
-                        <p class="text-white">Tengo pasion por la programación y la
-                            creación de métodos que rindan soluciones prácticas.
-                            Mencantan los desafios y el aprendizaje continuo.</p>
-                        <p class="text-white">En mis primeros años desarrolle aplicaciones
-                            y sistemas en Visual Basic .Net,
-                            luego comence a realizar Apps moviles con Android Studio y continue con la programacion
-                            Web con PHP y Mysql para el Back-End
-                            y Bootstrap, Javascript (JQuery) y Css para el Front-End</p>
+                            sistemas web a medida para Comercios, Pymes y Profesionales.</p>                        
+                        <p class="text-white">En mis primeros años (2012) desarrolle aplicaciones y
+                             sistemas en Visual Basic .Net, luego comence a realizar Apps moviles con
+                            Android Studio y continue (2018) con la programacion Web con PHP y Mysql
+                             para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.</p>
+                        <p class="text-white">Tengo pasión por la programación y la creación de métodos que 
+                            rindan soluciones prácticas. Me encantan los desafíos y el aprendizaje continuo.</p>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
