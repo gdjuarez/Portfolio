@@ -8,12 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--Devicons icons
-    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>-->
-
+    <!-- Bootstrap icons-->
     <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css' rel='stylesheet'>
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    
     <!-- jquery  -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -70,11 +67,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2021 y continua...</small></p>
-                                    <span class="devicons devicons-php"></span>
-                                    <span class="devicons devicons-mysql"></span>
-                                    <span class="devicons devicons-jquery"></span>
-                                    <span class="devicons devicons-javascript"></span>
-                                    <span class="devicons devicons-bootstrap"></span>
+                                
                             </div>
                         </article>
                     </div>
@@ -89,11 +82,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2021 y continua...</small></p>
-                                    <span class="devicons devicons-php"></span>
-                                    <span class="devicons devicons-mysql"></span>
-                                    <span class="devicons devicons-jquery"></span>
-                                    <span class="devicons devicons-javascript"></span>
-                                    <span class="devicons devicons-bootstrap"></span>
+                                
                             </div>
                         </article>
                     </div>
@@ -108,11 +97,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022</small></p>
-                                    <span class="devicons devicons-php"></span>
-                                    <span class="devicons devicons-mysql"></span>
-                                    <span class="devicons devicons-jquery"></span>
-                                    <span class="devicons devicons-javascript"></span>
-                                    <span class="devicons devicons-bootstrap"></span>
+                                    
                             </div>
                         </article>
                     </div>                   
@@ -130,11 +115,7 @@
                                 <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022 y continua...</small></p>
-                                    <span class="devicons devicons-php"></span>
-                                    <span class="devicons devicons-mysql"></span>
-                                    <span class="devicons devicons-jquery"></span>
-                                    <span class="devicons devicons-javascript"></span>
-                                    <span class="devicons devicons-bootstrap"></span>
+                                 
                             </div>
                         </article>
                     </div>
@@ -150,11 +131,7 @@
                                 <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022 y continua...</small></p>
-                                    <span class="devicons devicons-php"></span>
-                                    <span class="devicons devicons-mysql"></span>
-                                    <span class="devicons devicons-jquery"></span>
-                                    <span class="devicons devicons-javascript"></span>
-                                    <span class="devicons devicons-bootstrap"></span>
+                                 
                             </div>
                         </article>
                     </div>
@@ -170,8 +147,7 @@
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql. Comprende un modulo de Administración y
                                      una aplicacion remota (por intranet) para el uso de los medicos en sus consultorios dentro de la institucion.</p>
                                      <p><small>Implementado año 2012 y continua...</small></p>
-                                    <span class="devicons devicons-windows"></span>
-                                    <span class="devicons devicons-mysql"></span>
+                                   
                                     
                             </div>
                         </article>
@@ -190,8 +166,7 @@
                                 <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
                                     <p><small>Implementado año 2020 y continua...</small></p>
-                                    <span class="devicons devicons-windows"></span>
-                                    <span class="devicons devicons-mysql"></span>
+                                 
                             </div>
                         </article>
                     </div>
@@ -207,8 +182,7 @@
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
                                     <p><small>Implementado año 2018 y continua...</small></p>
                                     <a href="https://github.com/gdjuarez/Libreria_Bigogno" class="">github</a>
-                                    <span class="devicons devicons-windows"></span>
-                                    <span class="devicons devicons-mysql"></span>
+                              
                             </div>
                         </article>
                     </div>
@@ -224,8 +198,7 @@
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql. Comprende un modulo server y
                                      una aplicaciones clientes remotas (por intranet).(formando parte del equipo GIFSys)</p>
                                      <p><small>Implementado año 2017 y continua...</small></p>
-                                     <span class="devicons devicons-windows"></span>
-                                    <span class="devicons devicons-mysql"></span>
+                                  
                             </div>
                         </article>
                     </div>
