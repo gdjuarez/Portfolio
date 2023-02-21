@@ -42,7 +42,7 @@
             <div class="container p-4">
                 <h1 class='minombre mb-4'>Gustavo Juarez</h1>
                 <p id='actividad' class='actividad text-grey'><span>-</span></p>    
-                <div class="social">
+                <div class="social p-2 ">
                     <a href="https://github.com/gdjuarez" class="github p-3"><i class="bi bi-github"></i></a>
                     <a href="https://www.linkedin.com/in/gdjuarez/" class="linkedin p-3"><strong><i class="bi bi-linkedin"></i></strong></a>
                 </div> 
