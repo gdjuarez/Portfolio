@@ -190,11 +190,12 @@
                             <img src="assets/img/libreria.PNG" class="img-fluid img-thumbnail" alt="archivos" srcset="">
                             </div>
                             <div class="card_content">
-                                <span class="card_title">Libreria Bigogno</span>
+                                <span class="card_title">Libreria</span>
                                 <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
                                     <p><small>Implementado año 2018 y continua...</small></p>
-                                    <a href="https://github.com/gdjuarez/Libreria_Bigogno" class="">github</a>
+                                    <a href="https://github.com/gdjuarez/Libreria_B" class="github p-3"><i class="bi bi-github"></i></a>
+                                  
                               
                             </div>
                         </article>
@@ -227,7 +228,7 @@
             <div class="row">
                 <h2 class="neon p-4">Sobre mi</h2>
                 <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="parrafo p-5">
                         <p class="text-white">Soy analista de sistemas, desarrollo
                             sistemas web a medida para Comercios, Pymes y Profesionales.</p>                        
