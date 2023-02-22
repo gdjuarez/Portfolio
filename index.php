@@ -179,7 +179,7 @@
                                 <span class="card_subtitle">Gestion de comercio (inventario-stock-precios-etc)</span>
                                 <p class="card_description">Sistema desarrollado en Visual Basic .Net y Mysql.(formando parte del equipo GIFSys)</p>
                                     <p><small>Implementado año 2020 y continua...</small></p>
-                                    <a href="  https://github.com/gdjuarez/" class="github p-3"><i class="bi bi-github"></i></a>
+                                    <a href="https://github.com/gdjuarez/Porfolio_Coyote" class="github p-3"><i class="bi bi-github"></i></a>
                             </div>
                         </article>
                     </div>
