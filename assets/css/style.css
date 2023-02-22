@@ -107,7 +107,7 @@
 }
 
 .parrafo {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
   text-align: justify;
 }
 

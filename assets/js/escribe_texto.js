@@ -8,10 +8,7 @@ $(document).ready(function() {
       if (i < text.length) {
 
         $("#actividad").append(text[i]);
-          if(i==35){
-            $("#actividad").text('-');
-            i=-1;
-          }       
+          
         i++;       
       }        
 

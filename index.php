@@ -104,6 +104,8 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022</small></p>
+                                    <a href="  https://github.com/gdjuarez/Mitho_indumentaria" class="github p-3"><i class="bi bi-github"></i></a>
+                                  
                                     
                             </div>
                         </article>
@@ -122,6 +124,7 @@
                                 <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022 y continua...</small></p>
+                                    <a href="  https://github.com/gdjuarez/Mitho_indumentaria" class="github p-3"><i class="bi bi-github"></i></a>
                                  
                             </div>
                         </article>
@@ -138,6 +141,7 @@
                                 <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022 y continua...</small></p>
+                                    <a href="  https://github.com/gdjuarez/" class="github p-3"><i class="bi bi-github"></i></a>
                                  
                             </div>
                         </article>
