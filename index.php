@@ -90,7 +90,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2021 y continua...</small></p>
-                                    <a href="  https://github.com/gdjuarez/Presupuesto" class="github p-3"><i class="bi bi-github"></i></a>
+                                    <a href="  https://github.com/gdjuarez/Portfolio_Presupuesto" class="github p-3"><i class="bi bi-github"></i></a>
                                 
                             </div>
                         </article>
