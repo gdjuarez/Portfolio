@@ -66,7 +66,7 @@
                     <div class="col-sm-4">
                         <article class="card">
                             <div class="temporary_text">
-                                <img src="assets/img/HEC.JPG" class="img-fluid img-thumbnail" alt="HEC" srcset="">
+                                <img src="assets/img/menu_hec.png" class="img-fluid img-thumbnail" alt="HEC" srcset="">
                             </div>
                             <div class="card_content">
                                 <span class="card_title">Happy English Center</span>
@@ -74,7 +74,7 @@
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2021 y continua...</small></p>
-                                    <a href="  https://github.com/gdjuarez/" class="github p-3"><i class="bi bi-github"></i></a>
+                                    <a href="  https://github.com/gdjuarez/" class="github p-3">Codigo Privado<i class="bi bi-github"></i></a>
                                 
                             </div>
                         </article>
@@ -105,7 +105,7 @@
                                 <span class="card_subtitle">Sistema de Gestión de Comercio. Genera etiquetas(precios, descripcion,codigo de barras)</span>
                                 <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
-                                    <p><small>Implementado año 2022</small></p>
+                                    <p><small>Desarrollado año 2022-</small></p>
                                     <a href="  https://github.com/gdjuarez/Mitho_indumentaria" class="github p-3"><i class="bi bi-github"></i></a>
                                   
                                     
