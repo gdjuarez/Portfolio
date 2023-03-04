@@ -5,12 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-
-
-
-
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -238,6 +233,7 @@
                              para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.</p>
                         <p class="text-white">Tengo pasión por la programación y la creación de métodos que 
                             rindan soluciones prácticas. Me encantan los desafíos y el aprendizaje continuo.</p>
+                            <a href="Descargas/cv_GustavoJuarez.pdf" class="btn btn-primary">C.V.</a>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
