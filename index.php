@@ -233,7 +233,7 @@
                              para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.</p>
                         <p class="text-white">Tengo pasión por la programación y la creación de métodos que 
                             rindan soluciones prácticas. Me encantan los desafíos y el aprendizaje continuo.</p>
-                            <a href="Descargas/cv_GustavoJuarez.pdf" class="btn btn-primary">C.V.</a>
+                            <a href="descargas/cv_GustavoJuarez.pdf" class="btn btn-primary">C.V.</a>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
