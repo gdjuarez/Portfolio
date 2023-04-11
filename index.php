@@ -58,6 +58,22 @@
             <div class="container p-2">
                 <h2 class="neon">Mis trabajos</h2>
                 <div class="row p-4">
+                <div class="col-sm-4">
+                        <article class="card">
+                            <div class="temporary_text">
+                            <img src="assets/img/imresora3d.JPG" class="img-fluid img-thumbnail" alt="impresora3d" srcset="">
+                            </div>
+                            <div class="card_content">
+                                <span class="card_title">Impresoras3d</span>
+                                <span class="card_subtitle">web sobre Impresoras 3d, Tienda de modelos stl</span>
+                                <p class="card_description">Desarrollada en wordpress, en curso elearning-total.com de desarrollo web con wordpress .</p>
+                                    <p><small>Desarrollado año 2023-</small></p>
+                                    <a href="  https://curso.gdjuarez.site" >web Wordpress</a>
+                                  
+                                    
+                            </div>
+                        </article>
+                    </div> 
                     <div class="col-sm-4">
                         <article class="card">
                             <div class="temporary_text">
@@ -90,23 +106,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-sm-4">
-                        <article class="card">
-                            <div class="temporary_text">
-                            <img src="assets/img/mitho.JPG" class="img-fluid img-thumbnail" alt="ropa" srcset="">
-                            </div>
-                            <div class="card_content">
-                                <span class="card_title">Mitho</span>
-                                <span class="card_subtitle">Sistema de Gestión de Comercio. Genera etiquetas(precios, descripcion,codigo de barras)</span>
-                                <p class="card_description">Sistema web desarrollado en php y mysql (back-end) y con
-                                    bootstrap y Javascript para el (Front-end).</p>
-                                    <p><small>Desarrollado año 2022-</small></p>
-                                    <a href="  https://github.com/gdjuarez/Mitho_indumentaria" class="github p-3"><i class="bi bi-github"></i></a>
-                                  
-                                    
-                            </div>
-                        </article>
-                    </div>                   
+                                      
                 </div>
 
                 <div class="row p-4">
@@ -121,7 +121,7 @@
                                 <p class="card_description">App para el celular y pc. Sistema web desarrollado en php y mysql (back-end) y con
                                     bootstrap y Javascript para el (Front-end).</p>
                                     <p><small>Implementado año 2022 y continua...</small></p>
-                                    <a href="https://github.com/gdjuarez/Portfolio_ematp-pmos" class="github p-3"><i class="bi bi-github"></i></a>
+                                    <a href="https://github.com/gdjuarez/Ematp_Pmos_POO" class="github p-3"><i class="bi bi-github"></i></a>
                                  
                             </div>
                         </article>
@@ -231,6 +231,7 @@
                              sistemas en Visual Basic .Net, luego comence a realizar Apps moviles con
                             Android Studio y continue (2018) con la programacion Web con PHP y Mysql
                              para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.</p>
+                        <p class="text-white">En este año 2023 tomé un curso de Desarrollo web en Wordpress</p>
                         <p class="text-white">Tengo pasión por la programación y la creación de métodos que 
                             rindan soluciones prácticas. Me encantan los desafíos y el aprendizaje continuo.</p>
                             <a href="descargas/cv_GustavoJuarez.pdf" class="btn btn-primary">C.V.</a>
