@@ -230,8 +230,9 @@
                         <p class="text-white">En mis primeros años (2012) desarrolle aplicaciones y
                              sistemas en Visual Basic .Net, luego comence a realizar Apps moviles con
                             Android Studio y continue (2018) con la programacion Web con PHP y Mysql
-                             para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.</p>
-                        <p class="text-white">En este año 2023 tomé un curso de Desarrollo web en Wordpress</p>
+                             para el Back-End y Bootstrap, Javascript (JQuery) y Css para el Front-End.
+                            En marzo de este año 2023 terminé un curso de Desarrollo web en Wordpress.</p>                       
+                        <p class="text-white">Actualmente me estoy capacitando como Administrador de Salesforce.</p>
                         <p class="text-white">Tengo pasión por la programación y la creación de métodos que 
                             rindan soluciones prácticas. Me encantan los desafíos y el aprendizaje continuo.</p>
                             <a href="descargas/cv_GustavoJuarez.pdf" class="btn btn-primary">C.V.</a>
