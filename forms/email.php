@@ -8,8 +8,8 @@
 
     ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
-    $from = "dev@gdjuarez.site";
-    $to = "dev@gdjuarez.site";
+    $from = "gdjuarez@virtualgifsys.com";
+    $to = "gdjuarez@virtualgifsys.com";
     $subject =  $asunto ;
     $message =  "correo: ".$correo." Nombre: ".$nombre." Mensaje:".$mensaje;
     $headers = "From:" . $from;
