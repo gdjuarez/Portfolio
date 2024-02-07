@@ -61,15 +61,14 @@
                 <div class="col-sm-4">
                         <article class="card">
                             <div class="temporary_text">
-                            <img src="assets/img/imresora3d.JPG" class="img-fluid img-thumbnail" alt="impresora3d" srcset="">
+                            <img src="assets/img/e-ticket.JPG" class="img-fluid img-thumbnail" alt="impresora3d" srcset="">
                             </div>
                             <div class="card_content">
-                                <span class="card_title">Impresoras3d</span>
-                                <span class="card_subtitle">web sobre Impresoras 3d, Tienda de modelos stl</span>
-                                <p class="card_description">Desarrollada en wordpress, en curso elearning-total.com de desarrollo web con wordpress .</p>
-                                    <p><small>Desarrollado año 2023-</small></p>
-                                    <a href="  https://curso.gdjuarez.site" >web Wordpress</a>
-                                  
+                                <span class="card_title">e-TICKET</span>
+                                <span class="card_subtitle">Sistema web de tickets para un Supermercado</span>
+                                <p class="card_description">Desarrollada en php/mysql/.</p>
+                                    <p><small>Desarrollado año 2024-</small></p>
+                                                                     
                                     
                             </div>
                         </article>
